@@ -1,0 +1,56 @@
+{
+  "id": "1113a933-b2de-4797-8bc9-7486ee622666",
+  "version": "2.0",
+  "name": "EcommerceWebsiteLoginTest ",
+  "url": "https://www.demoblaze.com/",
+  "tests": [{
+    "id": "40b92d57-2aed-4dc6-a12b-87bf614a8e39",
+    "name": "Testcase1",
+    "commands": [{
+      "id": "ad863e5d-112e-4464-b6ac-d4a1b226c21f",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5786c4ff-5209-41e0-9720-e7754a6d830e",
+      "comment": "",
+      "command": "click",
+      "target": "id=login2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbeba604-7dfa-482d-a2b2-04d58636a5dc",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginusername",
+      "targets": [],
+      "value": "rabbi"
+    }, {
+      "id": "a3691012-91c0-4a7c-8223-f8e90322d2e2",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginpassword",
+      "targets": [],
+      "value": "1234"
+    }, {
+      "id": "5b8c28c6-cb58-44e7-9d7e-9c415a76ff86",
+      "comment": "",
+      "command": "click",
+      "target": "css=#logInModal .btn-primary",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "11696c9d-a3c8-4725-8a09-a0a73b66a7da",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.demoblaze.com/"],
+  "plugins": []
+}
